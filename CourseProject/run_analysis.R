@@ -83,16 +83,16 @@ runAnalysis <- function()
     library(dplyr)
     library(data.table)
     
-    featuresFile <- "features.txt"
-    activityFile <- "activity_labels.txt"
+    featuresFile <- "UCI HAR Dataset/features.txt"
+    activityFile <- "UCI HAR Dataset/activity_labels.txt"
     
-    trainXFile <- "train/X_train.txt"
-    trainYFile <- "train/y_train.txt"
-    subjectTrainFile <- "train/subject_train.txt"
+    trainXFile <- "UCI HAR Dataset/train/X_train.txt"
+    trainYFile <- "UCI HAR Dataset/train/y_train.txt"
+    subjectTrainFile <- "UCI HAR Dataset/train/subject_train.txt"
     
-    testXFile <- "test/X_test.txt"
-    testYFile <- "test/y_test.txt"
-    subjectTestFile <- "test/subject_test.txt"
+    testXFile <- "UCI HAR Dataset/test/X_test.txt"
+    testYFile <- "UCI HAR Dataset/test/y_test.txt"
+    subjectTestFile <- "UCI HAR Dataset/test/subject_test.txt"
     
     test <- readData(testXFile, testYFile, subjectTestFile, featuresFile)
     train <- readData(trainXFile, trainYFile, subjectTrainFile, featuresFile)
