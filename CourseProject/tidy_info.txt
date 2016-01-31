@@ -1,0 +1,83 @@
+Tidy Data of the UCI HAR Dataset
+================================
+
+The data located in "tidy.txt" contains the merged data within the "train" and "test" folders located in the UCI HAR Dataset.
+The mean() and std() feature variables were selected from these data sets.  For more information on the original feature variables, go to "features_info.txt".  For a list of all of the original features, go to "features.txt"
+
+The data is organized by subject and activity. The subject was retreived from the "subject_test" and "subject_train.txt". The activity was retrieved from the "y_train.txt" and "y_test.txt" and used the names from "activity_labels.txt".
+
+"tidy.txt" 
+This file contains 180 observations.  There are 30 subjects.  Each subject performed 6 activities.  Each subject performed each activity multiple times.  Each observation shows the average for all of these times.
+
+The "tidy.txt" data is organized by subject and by activity.  
+
+There are 68 variables reported in "tidy.txt". All variables except for the first 2 are doubles.
+
+subject - (int) subject ID
+activity - (chr) activity performed
+timeBodyAcc.mean.X
+timeBodyAcc.mean.Y
+timeBodyAcc.mean.Z
+timeBodyAcc.std.X
+timeBodyAcc.std.Y
+timeBodyAcc.std.Z
+timeGravityAcc.mean.X
+timeGravityAcc.mean.Y
+timeGravityAcc.mean.Z
+timeGravityAcc.std.X
+timeGravityAcc.std.Y
+timeGravityAcc.std.Z
+timeBodyAccJerk.mean.X
+timeBodyAccJerk.mean.Y
+timeBodyAccJerk.mean.Z
+timeBodyAccJerk.std.X
+timeBodyAccJerk.std.Y
+timeBodyAccJerk.std.Z
+timeBodyGyro.mean.X
+timeBodyGyro.mean.Y
+timeBodyGyro.mean.Z
+timeBodyGyro.std.X
+timeBodyGyro.std.Y
+timeBodyGyro.std.Z
+timeBodyGyroJerk.mean.X
+timeBodyGyroJerk.mean.Y
+timeBodyGyroJerk.mean.Z
+timeBodyGyroJerk.std.X
+timeBodyGyroJerk.std.Y
+timeBodyGyroJerk.std.Z
+timeBodyAccMag.mean.
+timeBodyAccMag.std.
+timeGravityAccMag.mean.
+timeGravityAccMag.std.
+timeBodyAccJerkMag.mean.
+timeBodyAccJerkMag.std.
+timeBodyGyroMag.mean.
+timeBodyGyroMag.std.
+timeBodyGyroJerkMag.mean.
+timeBodyGyroJerkMag.std.
+freqBodyAcc.mean.X
+freqBodyAcc.mean.Y
+freqBodyAcc.mean.Z
+freqBodyAcc.std.X
+freqBodyAcc.std.Y
+freqBodyAcc.std.Z
+freqBodyAccJerk.mean.X
+freqBodyAccJerk.mean.Y
+freqBodyAccJerk.mean.Z
+freqBodyAccJerk.std.X
+freqBodyAccJerk.std.Y
+freqBodyAccJerk.std.Z
+freqBodyGyro.mean.X
+freqBodyGyro.mean.Y
+freqBodyGyro.mean.Z
+freqBodyGyro.std.X
+freqBodyGyro.std.Y
+freqBodyGyro.std.Z
+freqBodyAccMag.mean.
+freqBodyAccMag.std.
+freqBodyBodyAccJerkMag.mean.
+freqBodyBodyAccJerkMag.std.
+freqBodyBodyGyroMag.mean.
+freqBodyBodyGyroMag.std.
+freqBodyBodyGyroJerkMag.mean.
+freqBodyBodyGyroJerkMag.std.
