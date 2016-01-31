@@ -1,4 +1,4 @@
-Tidy Data of the UCI HAR Dataset
+#Tidy Data of the UCI HAR Dataset
 ================================
 
 The data located in "tidy.txt" contains the merged data within the "train" and "test" folders located in the UCI HAR Dataset.
@@ -7,6 +7,7 @@ The mean() and std() feature variables were selected from these data sets.  For 
 The data is organized by subject and activity. The subject was retreived from the "subject_test" and "subject_train.txt". The activity was retrieved from the "y_train.txt" and "y_test.txt" and used the names from "activity_labels.txt".
 
 "tidy.txt" 
+===============
 This file contains 180 observations.  There are 30 subjects.  Each subject performed 6 activities.  Each subject performed each activity multiple times.  Each observation shows the average for all of these times.
 
 The "tidy.txt" data is organized by subject and by activity.  
