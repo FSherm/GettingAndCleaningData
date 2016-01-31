@@ -1,4 +1,4 @@
-#Tidy Data of the UCI HAR Dataset
+Tidy Data of the UCI HAR Dataset
 ================================
 
 The data located in "tidy.txt" contains the merged data within the "train" and "test" folders located in the UCI HAR Dataset.
